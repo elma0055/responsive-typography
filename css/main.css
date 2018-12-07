@@ -21,11 +21,15 @@ html {
 article {
   max-width: 43em;
   margin: auto;
+  margin-left: 0 3em;
   font-family: 'Crimson Text', serif;
+  line-height: 1.5;
+  font-size: 1.1rem;
 }
 
 article h1 {
   font-weight: normal;
+  margin: 0;
 }
 
 article header {
@@ -34,6 +38,7 @@ article header {
 
 article header p {
   font-style: italic;
+  margin-top: 0;
 }
 
 article > p:last-child {
@@ -50,8 +55,7 @@ blockquote {
   color: #999;
 }
 
-@media only screen and (min-width: @38em) {
+@media only screen and (min-width: 38em) {
 
-@media only screen and (min-width: @60em) {
 
-@media only screen and (min-width: @90em) {
+}
