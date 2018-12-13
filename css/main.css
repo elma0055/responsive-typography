@@ -19,10 +19,15 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 article {
   max-width: 43em;
-  margin: auto;
+  margin: 0 auto;
   margin-bottom: 1.3em;
+  padding: 0 1em;
 }
 
 article h1 {
