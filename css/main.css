@@ -23,6 +23,7 @@ article {
   max-width: 43em;
   margin: auto;
   margin-bottom: 1.3em;
+  margin: 0 .5em;
 }
 
 article h1 {
@@ -42,16 +43,29 @@ article header p {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  padding-bottom: 1.3em;
 }
 
 blockquote {
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin: 0;
 }
 
 .quote {
   color: #999;
+}
+
+article p {
+  margin-bottom: 1.3em;
+  margin-top: 0;
+}
+
+article ol {
+  margin-bottom: 1.3em;
+  margin-top: 0;
+  padding-left: 1em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -80,6 +94,25 @@ blockquote {
     margin: 0 0 1.4rem;
   }
 
+  article {
+    margin-bottom: 1.4em;
+  }
+
+  article header {
+  margin: 1.4em 0;
+  }
+
+  article > p:last-child {
+  padding-bottom: 1.4em;
+  }
+
+  article p {
+    margin-bottom: 1.4em;
+  }
+
+  article ol {
+    margin-bottom: 1.4em;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -92,6 +125,26 @@ blockquote {
   h1,
   p {
     margin: 0 0 1.5rem;
+  }
+
+  article {
+    margin-bottom: 1.5em;
+  }
+
+  article header {
+  margin: 1.5em 0;
+  }
+
+  article > p:last-child {
+  padding-bottom: 1.5em;
+  }
+
+  article p {
+    margin-bottom: 1.5em;
+  }
+
+  article ol {
+    margin-bottom: 1.5em;
   }
 
 }
